@@ -1,0 +1,611 @@
+
+h2{
+    font-size: 30px;
+}
+/*----------------------------head----------------------*/
+.head1{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-between;
+  
+ 
+}
+.imgh{
+    width: 150px;
+    height: 37px;
+}
+.lih{
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+.ah1,.ah{
+    color:#7b5244;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+   
+}
+.ah1:hover{
+    border: 2px solid #7b5244;
+   
+}
+.ah:hover {
+    border: 2px solid #7b5244;
+
+}
+
+.login li{
+display: inline-block;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.login .lih i{
+font-size: 25px;
+}
+._0{
+    width: 15px;
+    height: 15px;
+    background-color: #7b5244;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+   padding: 2px 0px;
+  
+   font-size: 13px;
+}
+.lih{
+    position: relative;
+}
+.dropdown{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    position: absolute;
+    width: 450px;
+    border: 2px solid #7b5244;
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 15px;
+    transform: scale(0);
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+    text-overflow: auto;
+}
+.lih:hover .dropdown{
+    transform: scale(1);
+    visibility: visible;
+    opacity: 1;
+}
+.ul_drop{
+    list-style: none;
+    display: table-cell;
+}
+.dropdown .ul_drop li:first-child a {
+    display: block;
+    border-bottom: 1px dotted #7b5244;
+    margin-bottom: 10px;
+}
+.dropdown .ul_drop li{
+    line-height: 1.7;
+}
+/*----------------------------sec1---------------------------*/
+.divv1{
+    margin: auto;
+    width: 85%;
+    height: 500px;
+    background-image: url(../Images/main-banner-1-1600x700.jpg);
+    background-size: cover;
+}
+
+/*------------------------------sec2-------------------*/
+ .sec2{
+     height: 500px;
+ }
+.h21{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.spn1{
+    display: block;
+    width: 85px;
+    height: 2px;
+    background-color:#7b5244;
+    margin: auto;
+    margin-bottom: 30px;
+    transition: 1s;
+}
+.spn1:hover{
+    width: 170px;
+}
+.hsp{
+    line-height: 7px;
+}
+.div1{
+    width: 85%;
+    height: 500px;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.a{
+    float: left;
+    width: 24%;
+    height: 500px;
+    margin-right: 5px;
+}
+.par{
+    display: flex;
+    justify-content: space-between;
+}
+.angle{
+margin-top: 20px;
+ height:90%;
+ width: 30px;
+ height: 30px;
+ font-size: 25px;
+padding-top: 5px;
+text-align: center;
+background-color: brown;
+color: #fff;
+opacity: 0;
+}
+.par:hover .angle{
+    opacity: 1;
+}
+.b{
+    float: left;
+    width: 24%;
+    height: 500px; 
+    margin: 0px 5px; 
+}
+.c{
+    float: left;
+    width: 24%;
+    height: 500px;
+    margin: 0px 5px;
+}
+.d{
+    float: left;
+    width: 24%;
+    height: 500px;
+    margin-left: 5px;
+}
+.imga{
+    width: 100%;
+}
+.imgb{
+    width: 100%;
+}
+.imgc{
+    width: 100%;
+}
+.imgd{
+    width: 100%;
+}
+
+.pa1{
+    color: gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.pa2{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px
+}
+.pb1{
+    color: gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.pb2{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px
+}
+.pc1{
+    color: gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.pc2{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px
+}
+.pd1{
+    color: gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.pd2{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px
+}
+.p{
+    line-height: 2px;
+}
+/*----------------------------------------sec3-----------------------------------*/
+.div2{
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.a2{
+    float: right;
+    width: 20%;
+    position: relative;
+    margin: 15px 0px;
+}
+.a2:hover{
+    transform: scale(1.1);
+    transition: 2s;
+  
+}
+.b2{
+    float: right;
+    width: 20%;
+    position: relative;
+    margin: 15px 0px;
+}
+.b2:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.imga2{
+    width: 100%;
+    
+}
+.imgb2{
+    width: 100%;
+}
+.para1{
+    position: absolute;
+    line-height: 1px;
+     top: 0px;
+     padding: 5px 10px;
+}
+.p1{
+    color: #7b5244;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hp1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.para2{
+    padding: 5px 10px;
+    line-height: 1px;
+    top: 0px;
+    position: absolute;
+}
+.p2{
+    color: #7b5244;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hp2{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.c2{
+    width: 55%;
+    background-color: rgb(202, 199, 199);
+    height: 246.79px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: left;
+    margin: 15px 5px;
+
+}
+.hc2{
+    font-size: 20px;
+}
+.para3{
+    line-height: 7px;
+    padding-left: 20px;
+
+}
+.divpp{
+    line-height: 3px;
+    padding-top: 5px;
+}
+.divi{
+    float: left;
+    font-size: 38px;
+    padding-top: 10px;
+}
+.pc22{
+    padding-left: 15px;
+    line-height: 22px;
+}
+.pc23{
+ color: #7b5244;
+ padding-left: 30px;
+}
+.divspan{
+    overflow: hidden;
+    margin-right: 10px;
+    
+}
+.span11{
+    display: block;
+    float: right;
+    width: 50px;
+    height: 2px;
+    background-color: #7b5244;
+}
+.span22{
+    display: block;
+    float: right;
+    width: 50px;
+    height: 2px;
+    background-color: #7b5244;
+    margin: 0px 10px;
+}
+.span33{
+    display: block;
+    float: right;
+    width: 50px;
+    height: 2px;
+    background-color: #7b5244;
+}
+/*
+.sprite{
+    width: 85%;
+    height: 200px;
+    margin: auto;
+    display: flex;
+ 
+    align-items: center;
+}
+.free{
+    flex: 1;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-right: 1px #7b5244 solid;
+}
+.free:last-child{
+    border-right: 0px;
+}
+.sprite_{
+background-image: url(../Images/service-icon.png);
+height: 55px;
+background-repeat: no-repeat;
+} 
+.sprite_icon1{
+    background-position: center 5px;
+    transition: all .5s;
+    }
+    .free:hover .sprite_icon1{
+        background-position: center -86px;
+    }
+    .sprite_icon2{
+    background-position: center -180px;
+    transition: all .5s;
+    }
+    .free:hover .sprite_icon2{
+        background-position: center -273px;
+    }
+    .sprite_icon3{
+    background-position: center -366px;
+    transition: all .5s;
+    }
+    .free:hover .sprite_icon3{
+        background-position: center -455px;
+    }
+    .sprite_icon4{
+    background-position: center -549px;
+    transition: all .5s;
+     }
+     .free:hover .sprite_icon4{
+        background-position: center -639px;
+    }
+    .sprite_icon5{
+    background-position: center -734px;
+    transition: all .5s;
+    }
+    .free:hover .sprite_icon5{
+        background-position: center -826px;
+    }
+  .info p{
+      color: gray;
+  }*/
+  /* HORIZONTAL.................................................................................................. */
+.horizontal {
+    display:flex;
+    margin-bottom: 55px;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hr_{
+    flex:1;
+    text-align: center;
+    border-right: 1px solid #7b5244;
+}
+.hr_:last-child{
+    border:0;
+}
+.sprite-info h3{
+    font-size: 17px;
+}
+.sprite-info span{
+    color: gray;
+    font-size: 15px;
+}
+.sprite-icon{
+    background-image: url(../Images/service-icon.png);
+    height: 55px;
+    background-repeat: no-repeat;
+}
+.sprite-icon-1{
+background-position: center 5px;
+transition: all .5s;
+}
+.hr_:hover .sprite-icon-1{
+    background-position: center -86px;
+}
+.sprite-icon-2{
+background-position: center -180px;
+transition: all .5s;
+}
+.hr_:hover .sprite-icon-2{
+    background-position: center -273px;
+}
+.sprite-icon-3{
+background-position: center -366px;
+transition: all .5s;
+}
+.hr_:hover .sprite-icon-3{
+    background-position: center -455px;
+}
+.sprite-icon-4{
+background-position: center -549px;
+transition: all .5s;
+ }
+ .hr_:hover .sprite-icon-4{
+    background-position: center -639px;
+}
+.sprite-icon-5{
+background-position: center -734px;
+transition: all .5s;
+}
+.hr_:hover .sprite-icon-5{
+    background-position: center -826px;
+}
+  .spn_sprite{
+      display: block;
+      width: 85%;
+      height: 1px;
+      background-color: gray;
+      margin: auto;
+  }
+/*----------------------------------------------sec4----------------------------------------*/
+.sec4{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div3{
+width: 85%;
+margin: auto;
+}
+.hsp3{
+    line-height: 3px;
+}
+.h23{
+    text-align: center;
+}
+.spn31{
+    display: block;
+    height: 2px;
+    width: 70px;
+    margin: auto;
+    background-color: #7b5244;
+    transition: 1s;
+}
+.spn31:hover{
+    width: 170px;
+}
+
+.ol3{
+    text-align: center;
+    margin: 30px 0px;
+}
+.li31{
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.a3{
+    width: 30%;
+    height: 500PX;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.imga3{
+    width: 100%;
+    position: relative;
+}
+.img_overlay{
+    width: 100%;
+    height: 500PX;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform:scalex(0);
+    opacity: 0.9;
+    transition: transform 0.2s;
+}
+.alter1{
+    width: 100%;
+}
+.img_overlay ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%,-50%);
+    display: flex;
+}
+.img_overlay ul li{
+    width: 40px;
+    height: 40px;
+    background-color: #7b5244;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 5px;
+}
+.img_overlay ul li i{
+    color: #fff;
+    line-height: 40px;
+  
+}
+.a3:hover .img_overlay{
+    transform: scalex(1);
+}
+.a3 i.active{
+    color: yellow;
+}
+.b3:hover .img_overlay{
+    transform: scalex(1);
+}
+.b3 i.active{
+    color: yellow;
+}
+.c3:hover .img_overlay{
+    transform: scalex(1);
+}
+.c3 i.active{
+    color: yellow;
+}
+.b3{
+    width: 30%;
+    height: 500PX;
+    float: left;
+    margin: 0px 50px;
+    position: relative;
+}
+.imgb3{
+    width: 100%;
+}
+
+.c3{
+    width: 30%;
+    height: 500PX;
+    float: left;
+    position: relative;
+}
+.imgc3{
+    width: 100%;
+}
+.fas{
+    color: yellow;
+}
+.spp{
+    line-height: 3px;
+    margin-top: 5px;
+}
+
